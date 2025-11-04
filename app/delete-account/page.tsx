@@ -6,8 +6,23 @@ import { Separator } from '@/components/ui/separator';
 import { AlertCircle, Mail, Trash2, Database, Clock, Shield } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Delete Account - Cheetee Paata',
-  description: 'Request deletion of your Cheetee Paata account and associated data. Learn about what data is deleted, what is retained, and how long the process takes.',
+  title: 'Delete Account - Cheetee Paata | Account Deletion Request',
+  description: 'Request deletion of your Cheetee Paata account and associated data. Learn about what data is deleted, what is retained, and how long the process takes. GDPR compliant account deletion process.',
+  keywords: ["delete account", "account deletion", "remove account", "data deletion", "GDPR", "user rights", "cheetee paata account"],
+  openGraph: {
+    title: "Delete Account",
+    description: "Request account deletion for Cheetee Paata app",
+    type: "website",
+    url: "https://cheetee-paata.vercel.app/delete-account",
+    images: ["/android-chrome-512x512.png"],
+  },
+  alternates: {
+    canonical: "https://cheetee-paata.vercel.app/delete-account",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function DeleteAccountPage() {

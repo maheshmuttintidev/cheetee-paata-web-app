@@ -4,8 +4,83 @@ import Link from "next/link";
 import { Separator } from "@/components/ui/separator";
 
 export const metadata: Metadata = {
-  title: "Cheetee Paata - Digital Chit Fund Manager",
-  description: "Manage your chit funds digitally. Join, organize & track payments with ease. Available in 6 Indian languages.",
+  metadataBase: new URL("https://cheetee-paata.vercel.app"),
+  title: {
+    default: "Cheetee Paata - Digital Chit Fund Manager",
+    template: "%s | Cheetee Paata",
+  },
+  description: "Manage your chit funds digitally. Join, organize & track payments with ease. Available in 6 Indian languages: English, Telugu, Tamil, Hindi, Kannada, Malayalam.",
+  keywords: [
+    "chit fund",
+    "chit fund manager",
+    "digital chit fund",
+    "cheetee paata",
+    "chit fund app",
+    "chit fund management",
+    "indian chit fund",
+    "chit payment tracker",
+    "multi-language chit fund",
+    "Telugu chit fund",
+    "Tamil chit fund",
+    "Hindi chit fund",
+    "Kannada chit fund",
+    "Malayalam chit fund"
+  ],
+  authors: [{ name: "Cheetee Paata Team" }],
+  creator: "Cheetee Paata",
+  publisher: "Cheetee Paata",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://cheetee-paata.vercel.app",
+    siteName: "Cheetee Paata",
+    title: "Cheetee Paata - Digital Chit Fund Manager",
+    description: "Manage your chit funds digitally. Join, organize & track payments with ease. Available in 6 Indian languages.",
+    images: ["/android-chrome-512x512.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Cheetee Paata - Digital Chit Fund Manager",
+    description: "Manage your chit funds digitally. Join, organize & track payments with ease. Available in 6 Indian languages.",
+    images: ["/android-chrome-512x512.png"],
+    creator: "@cheeteepaata",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  icons: {
+    icon: [
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+    other: [
+      {
+        rel: "mask-icon",
+        url: "/safari-pinned-tab.svg",
+      },
+    ],
+  },
+  manifest: "/site.webmanifest",
+  alternates: {
+    canonical: "https://cheetee-paata.vercel.app",
+  },
+  category: "finance",
 };
 
 export default function RootLayout({

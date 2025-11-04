@@ -1,0 +1,22 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Disallow admin or private areas (none currently)
+# Disallow: /admin/
+
+# Important pages for crawlers
+Sitemap: https://cheeteepaata.com/sitemap.xml
+
+# Popular crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Crawl delay (optional, adjust if needed)
+Crawl-delay: 1

@@ -1,0 +1,28 @@
+{
+  "name": "Cheetee Paata - Digital Chit Fund Manager",
+  "short_name": "Cheetee Paata",
+  "description": "Digital Chit Fund Manager - Manage your chit funds digitally with ease. Available in 6 Indian languages.",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#ea580c",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "start_url": "/",
+  "lang": "en-US",
+  "dir": "ltr",
+  "categories": ["finance", "utilities", "productivity"]
+}

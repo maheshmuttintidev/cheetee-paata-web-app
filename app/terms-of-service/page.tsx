@@ -1,8 +1,20 @@
+import { Metadata } from 'next';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
-export const metadata = {
-  title: 'Terms of Service - Cheetee Paata',
-  description: 'Terms of Service for Cheetee Paata - Digital Chit Fund Manager',
+export const metadata: Metadata = {
+  title: 'Terms of Service - Cheetee Paata | User Agreement & Legal Terms',
+  description: 'Terms of Service for Cheetee Paata mobile app. Read our user agreement, disclaimers, liability terms, and legal policies for using our digital chit fund management service.',
+  keywords: ["terms of service", "cheetee paata terms", "user agreement", "legal terms", "chit fund terms", "app policies"],
+  openGraph: {
+    title: "Terms of Service",
+    description: "Terms of service for Cheetee Paata app",
+    type: "website",
+    url: "https://cheetee-paata.vercel.app/terms-of-service",
+    images: ["/android-chrome-512x512.png"],
+  },
+  alternates: {
+    canonical: "https://cheetee-paata.vercel.app/terms-of-service",
+  },
 };
 
 export default function TermsOfServicePage() {

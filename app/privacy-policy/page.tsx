@@ -1,9 +1,21 @@
+import { Metadata } from 'next';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 
-export const metadata = {
-  title: 'Privacy Policy - Cheetee Paata',
-  description: 'Privacy Policy for Cheetee Paata - Digital Chit Fund Manager',
+export const metadata: Metadata = {
+  title: 'Privacy Policy - Cheetee Paata | Data Protection & User Rights',
+  description: 'Privacy Policy for Cheetee Paata mobile app. Learn how we collect, use, and protect your personal data. GDPR compliant. Comprehensive information on data collection, Firebase integration, and user rights.',
+  keywords: ["privacy policy", "cheetee paata privacy", "data protection", "GDPR", "user data security", "Firebase privacy"],
+  openGraph: {
+    title: "Privacy Policy",
+    description: "Privacy policy for Cheetee Paata app",
+    type: "website",
+    url: "https://cheetee-paata.vercel.app/privacy-policy",
+    images: ["/android-chrome-512x512.png"],
+  },
+  alternates: {
+    canonical: "https://cheetee-paata.vercel.app/privacy-policy",
+  },
 };
 
 export default function PrivacyPolicyPage() {

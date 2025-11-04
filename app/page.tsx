@@ -1,7 +1,25 @@
+import { Metadata } from 'next';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Smartphone, Shield, Users, TrendingUp, Globe, Bell } from 'lucide-react';
+
+export const metadata: Metadata = {
+  title: "Cheetee Paata - Digital Chit Fund Manager | Multi-Language Chit Fund App",
+  description: "Manage your chit funds digitally with Cheetee Paata. Join, organize, and track payments with ease. Available in 6 Indian languages: English, Telugu, Tamil, Hindi, Kannada, Malayalam. Free download on Google Play.",
+  keywords: ["chit fund app", "digital chit fund manager", "cheetee paata", "chit payment tracker", "Indian chit fund", "multi-language chit app"],
+  openGraph: {
+    title: "Cheetee Paata - Digital Chit Fund Manager",
+    description:
+      "Simplify chit fund management with Cheetee Paata. Track contributions, manage members, and handle auctions effortlessly.",
+    type: "website",
+    url: "https://cheetee-paata.vercel.app",
+    images: ["/android-chrome-512x512.png"],
+  },
+  alternates: {
+    canonical: "https://cheetee-paata.vercel.app",
+  },
+};
 
 export default function HomePage() {
   return (
