@@ -4,10 +4,10 @@ Official website for Cheetee Paata - Digital Chit Fund Manager mobile applicatio
 
 ## 🚀 Live URL (After Deployment)
 
-- **Production**: `https://cheeteepaata.com`
-- **Privacy Policy**: `https://cheeteepaata.com/privacy-policy`
-- **Terms of Service**: `https://cheeteepaata.com/terms-of-service`
-- **Delete Account**: `https://cheeteepaata.com/delete-account`
+- **Production**: `https://cheetee-paata.vercel.app`
+- **Privacy Policy**: `https://cheetee-paata.vercel.app/privacy-policy`
+- **Terms of Service**: `https://cheetee-paata.vercel.app/terms-of-service`
+- **Delete Account**: `https://cheetee-paata.vercel.app/delete-account`
 
 ## 📦 Tech Stack
 
@@ -119,7 +119,7 @@ cheetee-paata-website/
 
 3. **Custom Domain** (Optional):
    - In Vercel project settings, go to "Domains"
-   - Add your custom domain: `cheeteepaata.com`
+   - Add your custom domain: `cheetee-paata.vercel.app`
    - Follow Vercel's DNS configuration instructions
 
 ### Method 2: Via Vercel CLI
@@ -155,17 +155,17 @@ After deployment, update the Play Store guide in the mobile app repository:
 <!-- In cheetee-paata-mobile-app/docs/PLAYSTORE_PUBLISHING_GUIDE.md -->
 
 #### B. Privacy Policy & Terms
-- [x] **Privacy Policy URL**: https://cheeteepaata.com/privacy-policy ✅
-- [x] **Terms of Service URL**: https://cheeteepaata.com/terms-of-service ✅
-- [x] **Delete Account URL**: https://cheeteepaata.com/delete-account ✅
+- [x] **Privacy Policy URL**: https://cheetee-paata.vercel.app/privacy-policy ✅
+- [x] **Terms of Service URL**: https://cheetee-paata.vercel.app/terms-of-service ✅
+- [x] **Delete Account URL**: https://cheetee-paata.vercel.app/delete-account ✅
 ```
 
 ### 2. Test All Links
 
-- [ ] Visit: https://cheeteepaata.com
-- [ ] Visit: https://cheeteepaata.com/privacy-policy
-- [ ] Visit: https://cheeteepaata.com/terms-of-service
-- [ ] Visit: https://cheeteepaata.com/delete-account
+- [ ] Visit: https://cheetee-paata.vercel.app
+- [ ] Visit: https://cheetee-paata.vercel.app/privacy-policy
+- [ ] Visit: https://cheetee-paata.vercel.app/terms-of-service
+- [ ] Visit: https://cheetee-paata.vercel.app/delete-account
 - [ ] Test "Send Deletion Request Email" button on delete account page
 - [ ] Test navigation between pages
 - [ ] Test responsive design (mobile, tablet, desktop)
@@ -174,11 +174,11 @@ After deployment, update the Play Store guide in the mobile app repository:
 ### 3. Submit to Google Play Console
 
 In Google Play Console > Store Listing:
-- **Privacy Policy URL**: `https://cheeteepaata.com/privacy-policy`
-- **Terms of Service URL**: `https://cheeteepaata.com/terms-of-service` (optional)
+- **Privacy Policy URL**: `https://cheetee-paata.vercel.app/privacy-policy`
+- **Terms of Service URL**: `https://cheetee-paata.vercel.app/terms-of-service` (optional)
 
 In Google Play Console > App Content > Data Safety:
-- **Delete Account URL**: `https://cheeteepaata.com/delete-account` (required for apps with accounts)
+- **Delete Account URL**: `https://cheetee-paata.vercel.app/delete-account` (required for apps with accounts)
 
 ### 4. SEO & Meta Tags (Already Configured)
 
@@ -275,4 +275,4 @@ export default function RootLayout({ children }) {
 
 For questions or issues:
 - **Email**: cheeteepaata@gmail.com
-- **Website**: https://cheeteepaata.com
+- **Website**: https://cheetee-paata.vercel.app

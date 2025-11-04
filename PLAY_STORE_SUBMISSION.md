@@ -10,7 +10,7 @@ This document confirms that the Cheetee Paata website meets all Google Play Stor
 
 ### Account Deletion URL
 ```
-https://cheeteepaata.com/delete-account
+https://cheetee-paata.vercel.app/delete-account
 ```
 
 **Where to add this:**
@@ -104,10 +104,10 @@ All required pages are live:
 
 | Page | URL | Status |
 |------|-----|--------|
-| Delete Account | `https://cheeteepaata.com/delete-account` | ✅ Live |
-| Privacy Policy | `https://cheeteepaata.com/privacy-policy` | ✅ Live |
-| Terms of Service | `https://cheeteepaata.com/terms-of-service` | ✅ Live |
-| Home | `https://cheeteepaata.com` | ✅ Live |
+| Delete Account | `https://cheetee-paata.vercel.app/delete-account` | ✅ Live |
+| Privacy Policy | `https://cheetee-paata.vercel.app/privacy-policy` | ✅ Live |
+| Terms of Service | `https://cheetee-paata.vercel.app/terms-of-service` | ✅ Live |
+| Home | `https://cheetee-paata.vercel.app` | ✅ Live |
 
 ---
 
@@ -124,7 +124,7 @@ All required pages are live:
 2. Find the question: **"Does your app allow users to create an account?"**
 3. Answer: **No** (or update if your app does allow account creation)
 4. If you have accounts, find: **"Delete account URL"**
-5. Enter: `https://cheeteepaata.com/delete-account`
+5. Enter: `https://cheetee-paata.vercel.app/delete-account`
 6. Click **Save**
 
 ### Step 3: Verify Requirements
@@ -147,7 +147,7 @@ Confirm that your deletion page:
 
 Before submitting to Play Store, verify:
 
-- [ ] Page loads correctly: https://cheeteepaata.com/delete-account
+- [ ] Page loads correctly: https://cheetee-paata.vercel.app/delete-account
 - [ ] "Send Deletion Request Email" button opens email client
 - [ ] Email has correct recipient: cheeteepaata@gmail.com
 - [ ] Email has correct subject: "Account Deletion Request"
@@ -179,7 +179,7 @@ Before submitting to Play Store, verify:
 
 ### User Deletion Request Workflow
 
-1. **User visits**: `https://cheeteepaata.com/delete-account`
+1. **User visits**: `https://cheetee-paata.vercel.app/delete-account`
 2. **User clicks**: "Send Deletion Request Email" button
 3. **User fills**: Email template with required information
 4. **User sends**: Email to `cheeteepaata@gmail.com`
