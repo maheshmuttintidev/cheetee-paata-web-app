@@ -152,7 +152,7 @@ export default function PrivacyPolicyPage() {
               <li><strong>Withdrawal of Consent:</strong> Withdraw consent for data processing at any time</li>
             </ul>
             <p className="mt-4">
-              To exercise these rights, please contact us at: <a href="mailto:support@cheeteepaata.com" className="text-orange-600 hover:underline">support@cheeteepaata.com</a>
+              To exercise these rights, please contact us at: <a href="mailto:cheeteepaata@gmail.com" className="text-orange-600 hover:underline">cheeteepaata@gmail.com</a>
             </p>
           </CardContent>
         </Card>
@@ -223,7 +223,7 @@ export default function PrivacyPolicyPage() {
               If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
             </p>
             <ul className="space-y-2">
-              <li><strong>Email:</strong> <a href="mailto:support@cheeteepaata.com" className="text-orange-600 hover:underline">support@cheeteepaata.com</a></li>
+              <li><strong>Email:</strong> <a href="mailto:cheeteepaata@gmail.com" className="text-orange-600 hover:underline">cheeteepaata@gmail.com</a></li>
               <li><strong>App:</strong> Cheetee Paata Mobile Application</li>
               <li><strong>Response Time:</strong> We aim to respond to all inquiries within 48 hours</li>
             </ul>

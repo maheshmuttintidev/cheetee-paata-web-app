@@ -61,7 +61,7 @@ export default function TermsOfServicePage() {
               <li>Comply with all applicable laws in your jurisdiction</li>
             </ul>
             <p className="mt-4">
-              You are solely responsible for all activities that occur under your account. If you suspect unauthorized access, notify us immediately at support@cheeteepaata.com.
+              You are solely responsible for all activities that occur under your account. If you suspect unauthorized access, notify us immediately at cheeteepaata@gmail.com.
             </p>
           </CardContent>
         </Card>
@@ -259,7 +259,7 @@ export default function TermsOfServicePage() {
           </CardHeader>
           <CardContent className="space-y-4">
             <p>
-              In the event of any dispute arising from these Terms or your use of the App, you agree to first attempt to resolve the dispute informally by contacting us at support@cheeteepaata.com.
+              In the event of any dispute arising from these Terms or your use of the App, you agree to first attempt to resolve the dispute informally by contacting us at cheeteepaata@gmail.com.
             </p>
             <p>
               If informal resolution is unsuccessful, disputes shall be resolved through binding arbitration in accordance with the laws of [Your Jurisdiction], except where prohibited by law.
@@ -306,7 +306,7 @@ export default function TermsOfServicePage() {
               If you have questions or concerns about these Terms, please contact us:
             </p>
             <ul className="space-y-2">
-              <li><strong>Email:</strong> <a href="mailto:support@cheeteepaata.com" className="text-orange-600 hover:underline">support@cheeteepaata.com</a></li>
+              <li><strong>Email:</strong> <a href="mailto:cheeteepaata@gmail.com" className="text-orange-600 hover:underline">cheeteepaata@gmail.com</a></li>
               <li><strong>App:</strong> Cheetee Paata Mobile Application</li>
               <li><strong>Response Time:</strong> We aim to respond within 48 hours</li>
             </ul>

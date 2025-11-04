@@ -7,6 +7,7 @@ Official website for Cheetee Paata - Digital Chit Fund Manager mobile applicatio
 - **Production**: `https://cheeteepaata.com`
 - **Privacy Policy**: `https://cheeteepaata.com/privacy-policy`
 - **Terms of Service**: `https://cheeteepaata.com/terms-of-service`
+- **Delete Account**: `https://cheeteepaata.com/delete-account`
 
 ## 📦 Tech Stack
 
@@ -45,6 +46,8 @@ cheetee-paata-website/
 │   │   └── page.tsx            # Privacy Policy
 │   ├── terms-of-service/
 │   │   └── page.tsx            # Terms of Service
+│   ├── delete-account/
+│   │   └── page.tsx            # Account Deletion
 │   ├── layout.tsx              # Root layout (header, footer)
 │   └── globals.css             # Global styles
 ├── components/
@@ -76,6 +79,13 @@ cheetee-paata-website/
 - Chit fund management disclaimer
 - User roles and responsibilities
 - Liability limitations
+
+### Delete Account (`/delete-account`)
+- Step-by-step account deletion instructions
+- Email-based deletion request process
+- Clear explanation of what data is deleted
+- Data retention periods for legal compliance
+- Information about data that may be retained
 
 ## 🚀 Deployment to Vercel
 
@@ -147,6 +157,7 @@ After deployment, update the Play Store guide in the mobile app repository:
 #### B. Privacy Policy & Terms
 - [x] **Privacy Policy URL**: https://cheeteepaata.com/privacy-policy ✅
 - [x] **Terms of Service URL**: https://cheeteepaata.com/terms-of-service ✅
+- [x] **Delete Account URL**: https://cheeteepaata.com/delete-account ✅
 ```
 
 ### 2. Test All Links
@@ -154,6 +165,8 @@ After deployment, update the Play Store guide in the mobile app repository:
 - [ ] Visit: https://cheeteepaata.com
 - [ ] Visit: https://cheeteepaata.com/privacy-policy
 - [ ] Visit: https://cheeteepaata.com/terms-of-service
+- [ ] Visit: https://cheeteepaata.com/delete-account
+- [ ] Test "Send Deletion Request Email" button on delete account page
 - [ ] Test navigation between pages
 - [ ] Test responsive design (mobile, tablet, desktop)
 - [ ] Test dark mode compatibility
@@ -163,6 +176,9 @@ After deployment, update the Play Store guide in the mobile app repository:
 In Google Play Console > Store Listing:
 - **Privacy Policy URL**: `https://cheeteepaata.com/privacy-policy`
 - **Terms of Service URL**: `https://cheeteepaata.com/terms-of-service` (optional)
+
+In Google Play Console > App Content > Data Safety:
+- **Delete Account URL**: `https://cheeteepaata.com/delete-account` (required for apps with accounts)
 
 ### 4. SEO & Meta Tags (Already Configured)
 
@@ -197,7 +213,7 @@ echo 'export default function AboutPage() { return <div>About Us</div>; }' > app
 
 ### Update Contact Email
 
-Search and replace `support@cheeteepaata.com` with your actual email.
+Search and replace `cheeteepaata@gmail.com` with your actual email.
 
 ## 📊 Analytics (Optional)
 
@@ -258,5 +274,5 @@ export default function RootLayout({ children }) {
 ## 🤝 Support
 
 For questions or issues:
-- **Email**: support@cheeteepaata.com
+- **Email**: cheeteepaata@gmail.com
 - **Website**: https://cheeteepaata.com

@@ -32,6 +32,9 @@ export default function RootLayout({
               <Link href="/terms-of-service" className="text-gray-700 hover:text-orange-600 transition-colors">
                 Terms of Service
               </Link>
+              <Link href="/delete-account" className="text-gray-700 hover:text-orange-600 transition-colors">
+                Delete Account
+              </Link>
             </nav>
           </div>
         </header>
@@ -67,12 +70,17 @@ export default function RootLayout({
                       Terms of Service
                     </Link>
                   </li>
+                  <li>
+                    <Link href="/delete-account" className="text-gray-400 hover:text-white transition-colors">
+                      Delete Account
+                    </Link>
+                  </li>
                 </ul>
               </div>
               <div>
                 <h4 className="font-semibold mb-4">Contact</h4>
                 <ul className="space-y-2 text-gray-400">
-                  <li>Email: support@cheeteepaata.com</li>
+                  <li>Email: cheeteepaata@gmail.com</li>
                   <li>Available in 6 Indian languages</li>
                 </ul>
               </div>
