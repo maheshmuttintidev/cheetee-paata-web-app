@@ -4,10 +4,11 @@ Official website for Cheetee Paata - Digital Chit Fund Manager mobile applicatio
 
 ## 🚀 Live URL (After Deployment)
 
-- **Production**: `https://cheetee-paata.vercel.app`
-- **Privacy Policy**: `https://cheetee-paata.vercel.app/privacy-policy`
-- **Terms of Service**: `https://cheetee-paata.vercel.app/terms-of-service`
-- **Delete Account**: `https://cheetee-paata.vercel.app/delete-account`
+- **Production**: `https://cheeteepaata.com`
+- **Privacy Policy**: `https://cheeteepaata.com/privacy-policy`
+- **Terms of Service**: `https://cheeteepaata.com/terms-of-service`
+- **Delete Account**: `https://cheeteepaata.com/delete-account`
+- **Feedback**: `https://cheeteepaata.com/feedback`
 
 ## 📦 Tech Stack
 
@@ -48,6 +49,8 @@ cheetee-paata-website/
 │   │   └── page.tsx            # Terms of Service
 │   ├── delete-account/
 │   │   └── page.tsx            # Account Deletion
+│   ├── feedback/
+│   │   └── page.tsx            # Feedback Form
 │   ├── layout.tsx              # Root layout (header, footer)
 │   └── globals.css             # Global styles
 ├── components/
@@ -86,6 +89,13 @@ cheetee-paata-website/
 - Clear explanation of what data is deleted
 - Data retention periods for legal compliance
 - Information about data that may be retained
+
+### Feedback (`/feedback`)
+- Interactive feedback form with star ratings
+- Category selection (bug, feature, UI/UX, etc.)
+- Email-based submission via mailto
+- Form validation and user-friendly interface
+- Perfect for Play Store closed testing feedback collection
 
 ## 🚀 Deployment to Vercel
 

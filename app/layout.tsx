@@ -26,6 +26,9 @@ export default function RootLayout({
               <Link href="/" className="text-gray-700 hover:text-orange-600 transition-colors">
                 Home
               </Link>
+              <Link href="/feedback" className="text-gray-700 hover:text-orange-600 transition-colors">
+                Feedback
+              </Link>
               <Link href="/privacy-policy" className="text-gray-700 hover:text-orange-600 transition-colors">
                 Privacy Policy
               </Link>
@@ -58,6 +61,11 @@ export default function RootLayout({
                   <li>
                     <Link href="/" className="text-gray-400 hover:text-white transition-colors">
                       Home
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/feedback" className="text-gray-400 hover:text-white transition-colors">
+                      Feedback
                     </Link>
                   </li>
                   <li>
