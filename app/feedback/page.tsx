@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { MessageSquare, Send, CheckCircle, AlertCircle, Star } from 'lucide-react';
+import { MessageSquare, Send, CheckCircle, Star } from 'lucide-react';
 
 export default function FeedbackPage() {
   const [formData, setFormData] = useState({
@@ -290,7 +290,7 @@ Date: ${new Date().toLocaleString()}
               </li>
               <li className="flex gap-3">
                 <span className="flex-shrink-0 w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
-                <span>For critical bugs or important features, we'll respond directly to your email</span>
+                <span>For critical bugs or important features, we&apos;ll respond directly to your email</span>
               </li>
             </ol>
           </CardContent>
